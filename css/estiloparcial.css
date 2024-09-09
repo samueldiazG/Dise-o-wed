@@ -1,0 +1,67 @@
+h1,h2,h3,h4 {
+    font-size: 25px;
+}
+div header{
+    width:98% ;
+    background: #180ea0;
+    margin: 20px,;
+    padding: 3px;
+    border: 10px solid;
+}
+.menu{
+    width: 100%;
+    background:#000;
+    list-style:none ;
+    margin:0;
+    padding:0;
+}
+.menu li {
+    display:inline-block ;
+}
+.menu li a {
+    padding:10px 20px;
+    display: inline-block;
+    color:#fff;
+}
+menu li a :hover{
+    background:#ccc;
+    color: #000;
+    cursor: pointer;
+}
+div article {
+    background: #142a8d;
+    border: 10px solid;
+}
+div aside{
+    
+    background: rgb(255, 254, 254);
+
+}
+.btn{
+    margin: 10px 0;
+    padding: 10px 20px;
+    width: 100%;
+    background: rgb(78, 78, 177);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+}
+.btn:hover{
+    background: rgb(27, 34, 97);
+    cursor: pointer;
+}
+
+footer{
+    background: #fff;
+}
+input{
+    margin: 10px 0;
+    padding: 10px;
+    width: 50%;
+    border: 1px solid rgb(235, 230, 230);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
