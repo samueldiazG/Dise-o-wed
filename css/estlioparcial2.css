@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d81717;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+header {
+    background-color: #333;
+    color: rgb(207, 199, 76);
+    padding: 10px 0;
+}
+
+header h1 {
+    display: inline-block;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.publicidad {
+    background-color: #8d5353;
+    padding: 20px 0;
+    margin: 20px 0;
+}
+
+.publicidad h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.publicidad img {
+    width: 1000px;
+    height: 50%;
+    max-height: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.anuncios {
+    background-color: #b84242a4;
+    padding: 20px 0;
+    margin: 20px 0;
+}
+
+.contenido-anuncio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto-anuncio {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.imagenes-anuncio {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.contenido-imagen {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border: 2px solid #e22626;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido-imagen img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.sales-center {
+    background-color: #702929;
+    padding: 20px 0;
+    margin: 20px 0;
+}
+
+.sales-center h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.producto {
+    text-align: center;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.producto img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.producto p {
+    margin-top: 10px;
+}
+
+.add-to-cart {
+    background-color: #ffffff;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+header {
+    background-color: #333;
+    color: rgb(71, 96, 209);
+    padding: 10px 0;
+}
+
+header h1 {
+    display: inline-block;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: rgb(163, 156, 201);
+    text-decoration: none;
+}
+
+
+.publicidad {
+    background-color: #e9c5c5;
+    padding: 20px 0;
+    margin: 20px 0;
+}
+
+.publicidad h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.publicidad img {
+    width: 1000px;
+    height: 50%;
+    max-height: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.anuncios {
+    background-color: #ebdad1;
+    padding: 20px 0;
+    margin: 20px 0;
+}
+
+.contenido-anuncio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto-anuncio {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.imagenes-anuncio {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.contenido-imagen {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border: 2px solid #c55e5e;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido-imagen img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.sales-center {
+    background-color: #f5e4e4;
+    padding: 2px 0;
+    margin: 8px 0;
+}
+
+.sales-center h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.producto {
+    text-align: center;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.producto img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.producto p {
+    margin-top: 20px;
+}
+
+.add-to-cart {
+    background-color: #2e910f;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
